@@ -1,0 +1,820 @@
+/* Mobile */
+@media screen and (max-width: 520px) {
+
+    .container {
+        width: 100%;
+
+    }
+
+    .title {
+        font-size: 2.4rem;
+        line-height: 1.5em;
+    }
+    .text {
+        font-size: 1.3rem;
+        line-height: 1.5em;
+    }
+    .header {
+        border: none;
+    }
+    .header .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .header .menu-mobile {
+        display: flex;
+    }
+
+    .header .menu-desktop {
+        display: none;
+    }
+
+    .header .menu {
+        flex-direction: column;
+        margin-top: 15px;
+        padding: 0 10px;
+    }
+
+    .header .list {
+        margin-left: 0;
+    }
+
+    .header .login {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .header .buttons,
+    .promo .buttons {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .header .btn,
+    .promo .btn {
+        width: 50%;
+        height: 8vh;
+        margin: 15px 0;
+    }
+
+    .header .list {
+        width: 100%;
+        margin: 25px;
+        justify-content: center;
+
+    }
+
+    .header .link {
+        font-size: 1rem;
+        margin: 15px;
+    }
+
+    .header li {
+        padding-bottom: 15px;
+    }
+
+    .promo .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .promo .title {
+        width: 100%;
+        font-size: 3rem;
+        line-height: 1.4em;
+        margin: 10px 0;
+        text-align: center;
+
+    }
+
+    .promo .container {
+        flex-direction: column;
+    }
+
+    .promo .text {
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .promo .btn1 {
+        margin-right: 0;
+    }
+
+    .promo .text2 {
+        font-size: 1rem;
+        text-align: center;
+        margin: 30px;
+    }
+
+    .promo .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .companies .title {
+        width: 100%;
+        margin: 50px 0 10px 0;
+    }
+
+    .companies .images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .companies img {
+        margin: 20px 0;
+        width: 35%;
+        padding: 0 20px;
+    }
+
+    .advantages .container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .advantages .card {
+        display: flex;
+        align-items: flex-end;
+        padding: 0 10px;
+    }
+
+    .advantages .items {
+        order: -1;
+    }
+
+    .advantages .title {
+        margin-top: 50px;
+    }
+    .advantages .title,
+    .advantages .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .advantages .text {
+        width: 100%;
+    }
+
+    .advantages .link {
+        font-size: 1.3rem;
+        width: 35%;
+    }
+
+    .advantages .container:not(:first-child) {
+        margin: 50px 0;
+    }
+
+    .localize .container {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .localize .title,
+    .localize .card_wrapper,
+    .boost .title,
+    .boost .card_wrapper,
+    .tools,
+    .try,
+    .footer {
+        padding: 0 10px;
+    }
+    
+
+    .localize .title {
+        margin: 50px 0;
+    }
+
+    .localize .card:not(:nth-child(3n+3)) {
+        margin-right: 0;
+    }
+
+    .localize .card_wrapper {
+        margin: 0 5px;
+    }
+    .localize .title_pic {
+        font-size: 1.5rem;
+        line-height: 1.3em;
+    }
+    .localize .text {
+        font-size: 1.2rem;
+    }
+
+    .boost .title {
+        margin: 50px 0;
+    }
+
+    .boost .card_wrapper {
+        flex-direction: column;
+    }
+    .boost .card {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boost .title_pic {
+        font-size: 1.8rem;
+        line-height: 1.2em;
+    }
+    .boost .text {
+        margin: 0 5px 25px 5px;
+    }
+
+    .quote .menu-desktop {
+        display: none;
+    }
+
+    .quote .menu-mobile {
+        display: flex;
+    }
+
+    .quote .text {
+        width: 100%;
+        font-size: 1.6rem;
+        line-height: 1.3em;
+    }
+
+    .quote .wrapper {
+        margin: 0 10px;
+    }
+
+    .quote .photo {
+        margin: 50px 0 20px 0;
+        width: 100%;
+    }
+
+    .quote .logo {
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .review .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .review .left {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .review .image {
+        width: 30%;
+        padding-left: 10px;
+    }
+    .review .text {
+        font-size: 1.7rem;
+        line-height: 1.4em;
+        width: 100%;
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .review .right {
+        display: flex;
+        width: 100%;
+        height: auto;
+        border-left: none;
+        margin: 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .review .review1 {
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+    .tools .title {
+        font-size: 3.5rem;
+        line-height: 1.5em;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .tools .text {
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        width: 100%;
+        margin: 50px 0;
+    }
+    .tools .image {
+        width: 100%;
+    }
+    .tools .btn {
+        width: 50%;
+        height: 10vh;
+        margin-bottom: 50px;
+    }
+
+    .try .title {
+        font-size: 3rem;
+        line-height: 1.5em;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .try .text {
+        width: 100%;
+
+    }
+    .try .btn {
+        width: 50%;
+        height: 10vh;
+        margin-bottom: 50px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+    .footer .case {
+        margin-bottom: 0;
+    }
+    .footer .title {
+        font-size: 2.6rem;
+        line-height: 1.5em;
+        margin-top: 50px;
+    }
+    .footer .image {
+        width: 100%;
+        height: auto;
+    }
+    .footer .logo1 {
+        width: 40%;
+        height: auto;
+    }
+    .footer .text {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .footer .case__link {
+        text-align: end;
+        font-size: 1.7rem;
+        line-height: 1.2em;
+        }
+    .footer .menu {
+        margin-top: 50px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .footer li {
+        text-align: center;
+    }
+    .footer .list {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .footer .first {
+        font-size: 1.2rem;
+        line-height: 1.2em;
+    }
+    .footer .link {
+        font-size: 0.9rem;
+        line-height: 1em;
+    }
+    .footer .logo {
+        width: 40%;
+    }
+    .footer .text2 {
+        font-size: 0.8rem;
+        line-height: 1em;
+        width: 60%;
+    }
+    .footer .right {
+        margin-top: 70px;
+        text-align: center;
+    }
+    .footer .right .text2 {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 521px) and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2.4rem;
+        line-height: 1.5em;
+    }
+    .text {
+        font-size: 1.3rem;
+        line-height: 1.5em;
+    }
+    .header .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .header .menu-mobile {
+        display: flex;
+    }
+
+    .header .menu-desktop {
+        display: none;
+    }
+
+    .header .menu {
+        flex-direction: column;
+        margin-top: 15px;
+        padding: 0 10px;
+    }
+
+    .header .login {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header .buttons {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header .btn,
+    .promo .btn {
+        width: 40%;
+        height: 8vh;
+        margin: 10px;
+    }
+
+    .header .list {
+        width: 100%;
+        margin: 25px;
+        justify-content: center;
+
+    }
+
+    .header .link {
+        font-size: 1rem;
+        margin: 15px;
+    }
+
+    .header li {
+        padding-bottom: 15px;
+    }
+
+    .promo .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .promo .title {
+        width: 100%;
+        font-size: 3rem;
+        line-height: 1.4em;
+        margin: 35px 0;
+        text-align: center;
+
+    }
+
+    .promo .container {
+        flex-direction: column;
+    }
+
+    .promo .text {
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        text-align: center;
+    }
+    .promo .buttons {
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+        
+    }
+
+    .promo .btn1 {
+        margin-right: 0;
+    }
+
+    .promo .btn {
+        margin: 20px 0;
+    }
+
+    .promo .text2 {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .promo .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .companies .title {
+        width: 100%;
+        margin: 50px 0 10px 0;
+    }
+
+    .companies .images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .companies img {
+        margin: 20px 0;
+        width: 25%;
+        padding: 0 10px;
+    }
+
+    .advantages .container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .advantages .card {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .advantages .items {
+        order: -1;
+    }
+    .advantages .title {
+        margin-top: 50px;
+    }
+    .advantages .title,
+    .advantages .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .advantages .text {
+        width: 100%;
+    }
+
+    .advantages .link {
+        font-size: 1.3rem;
+        width: 20%;
+        text-align: center;
+    }
+
+    .advantages .container:not(:first-child) {
+        margin: 50px 0;
+    }
+
+    .localize .container {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .localize .title,
+    .localize .card_wrapper,
+    .boost .title,
+    .boost .card_wrapper,
+    .tools,
+    .try,
+    .footer {
+        padding: 0 10px;
+    }
+
+    .localize .title {
+        margin: 50px 0;
+    }
+
+    .localize .card:not(:nth-child(3n+3)) {
+        margin-right: 0;
+    }
+
+    .localize .card_wrapper {
+        margin: 0 5px;
+    }
+    .localize .title_pic {
+        font-size: 1.5rem;
+        line-height: 1.3em;
+    }
+    .localize .text {
+        font-size: 1.2rem;
+    }
+
+    .boost .title {
+        margin: 50px 0;
+    }
+
+    .boost .card_wrapper {
+        flex-direction: column;
+    }
+
+    .boost .card {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boost .text {
+        margin: 0 5px 25px 5px;
+    }
+    .boost .title_pic {
+        font-size: 1.8rem;
+        line-height: 1.2em;
+    }
+    .quote .menu-desktop {
+        display: none;
+    }
+
+    .quote .menu-mobile {
+        display: flex;
+    }
+
+    .quote .text {
+        width: 100%;
+        font-size: 1.6rem;
+        line-height: 1.3em;
+    }
+
+    .quote .wrapper {
+        margin: 0 10px;
+    }
+
+    .quote .photo {
+        margin: 50px 0 20px 0;
+        width: 100%;
+    }
+    .quote .text2  {
+        font-size: 1rem;
+        line-height: 1.3em;
+    }
+    .quote .logo {
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .review .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .review .left {
+        width: 100%;
+        margin: 50px 0;
+    }
+    .review .image {
+        width: 30%;
+        padding-left: 10px;
+    }
+    .review .text {
+        font-size: 1.7rem;
+        line-height: 1.4em;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .review .right {
+        display: flex;
+        width: 100%;
+        height: auto;
+        border-left: none;
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .review .review1 {
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+
+    .tools .title {
+        font-size: 3.5rem;
+        line-height: 1.5em;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .tools .text {
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        width: 100%;
+        margin: 50px 0;
+    }
+    .tools .image {
+        width: 100%;
+    }
+    .tools .btn {
+        width: 30%;
+        height: 10vh;
+        margin-bottom: 50px;
+    }
+
+    .try .title {
+        font-size: 3rem;
+        line-height: 1.5em;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .try .text {
+        width: 100%;
+    }
+    .try .btn {
+        width: 30%;
+        height: 10vh;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        padding: 0 10px;
+    }
+    .footer .container {
+        flex-direction: column;
+    }
+    .footer .case {
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .footer .title {
+        font-size: 2.6rem;
+        line-height: 1.5em;
+        margin-top: 50px;
+    }
+    .footer .image {
+        width: 80%;
+        height: auto;
+    }
+    .footer .logo1 {
+        width: 40%;
+        height: auto;
+    }
+    .footer .text {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .footer .case__link {
+        text-align: end;
+        font-size: 2rem;
+        line-height: 1.2em;
+        }
+    .footer .menu {
+        margin-top: 50px;
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .footer li {
+        text-align: start;
+    }
+    .footer .list {
+        width: 50%;
+        margin-bottom: 25px;
+        margin-left: 5px;
+    }
+    .footer .first {
+        font-size: 1.2rem;
+        line-height: 1.2em;
+    }
+
+    .footer .link {
+        font-size: 0.9rem;
+        line-height: 1em;
+    }
+    .footer .logo {
+        width: 40%;
+    }
+    .footer .text2 {
+        font-size: 0.8rem;
+        line-height: 1em;
+        width: 50%;
+    }
+    .footer .right {
+        margin-top: 70px;
+        text-align: center;
+    }
+    .footer .right .text2 {
+        width: 100%;
+    }
+}
